@@ -23,6 +23,7 @@ export const COLORS = {
   wolf_light_green_container: 'rgba(146, 186, 71, 0.3)',
 
   main_border: 'rgba(255, 255, 255, 0.6)',
+  grey_border: 'rgba(200, 200, 200, 0.3)',
 
   onbd_dot_active: '#2b623b',
   onbd_dot_inactive: 'transparent',

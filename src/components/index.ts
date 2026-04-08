@@ -5,6 +5,7 @@ import CustomFilter from './ui/CustomFilter/CustomFilter';
 import CustomIcon from './ui/CustomIcons/CustomIcon';
 import CustomTabBar from './ui/CustomTabBar/CustomTabBar';
 import CustomText from './ui/CustomText/CustomText';
+import InfoContainer from './ui/InfoContainer/InfoContainer';
 
 export {
   GameBackground,
@@ -14,4 +15,5 @@ export {
   CustomButton,
   CustomIcon,
   CustomTabBar,
+  InfoContainer,
 };

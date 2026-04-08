@@ -1,15 +1,17 @@
 import type { ImageSourcePropType } from 'react-native';
 
+export type SceneOptionType = {
+  id: string;
+  name: string;
+  description: string;
+};
+
 export type SceneType = {
   id: string;
   name: string;
   image: ImageSourcePropType;
   description: string;
-  options: {
-    id: string;
-    name: string;
-    description: string;
-  }[];
+  options: SceneOptionType[];
 };
 
 export const LEARN_STORIES_TYPES = ['Instinct', 'Pack', 'Survival'] as const;
@@ -45,3 +47,6 @@ export type QuizQuestionType = {
   options: string[];
   correctAnswer: string;
 };
+
+export const SCENE_STATUS_LIST = ['idle', 'pending', 'finish'] as const;
+export type SceneStatusType = (typeof SCENE_STATUS_LIST)[number];

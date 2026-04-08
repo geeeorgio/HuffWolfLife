@@ -9,6 +9,9 @@ export const styles = StyleSheet.create({
     borderWidth: wp(1),
     borderColor: COLORS.main_border,
   },
+  default: {
+    borderColor: COLORS.grey_border,
+  },
   main: {
     backgroundColor: COLORS.main_green_container,
   },

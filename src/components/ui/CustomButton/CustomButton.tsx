@@ -5,6 +5,7 @@ import { styles } from './styles';
 
 interface CustomButtonProps extends PressableProps {
   variant?:
+    | 'default'
     | 'main'
     | 'back'
     | 'quizRed'
