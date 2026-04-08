@@ -22,11 +22,13 @@ export const COLORS = {
   dark_green_container: 'rgba(20, 40, 30, 0.8)',
   wolf_light_green_container: 'rgba(146, 186, 71, 0.3)',
 
-  main_border: 'rgba(255, 255, 255, 0.35)',
+  main_border: 'rgba(255, 255, 255, 0.6)',
 
   onbd_dot_active: '#2b623b',
   onbd_dot_inactive: 'transparent',
 
   quiz_red: 'rgba(210, 33, 27, 0.7)',
   quiz_green: 'rgba(8, 115, 31, 0.7)',
+
+  overlay_background: 'rgba(250, 250, 250, 0.22)',
 };

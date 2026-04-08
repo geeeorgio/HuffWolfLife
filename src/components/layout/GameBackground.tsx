@@ -8,6 +8,7 @@ const GameBackground = ({ children }: { children: React.ReactNode }) => {
       source={MAIN_BACKGROUND}
       resizeMode="cover"
       style={styles.background}
+      blurRadius={1}
     >
       {children}
     </ImageBackground>
