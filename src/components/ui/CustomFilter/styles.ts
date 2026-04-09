@@ -16,14 +16,14 @@ export const styles = StyleSheet.create({
     opacity: 0.5,
   },
   typeButton: {
-    flex: 0.49,
+    width: '49%',
     justifyContent: 'center',
     alignItems: 'center',
     paddingVertical: wp(8),
   },
   typeText: {
     fontSize: sp(14),
-    color: COLORS.text_faded,
+    color: COLORS.text_secondary,
   },
   activeText: {
     color: COLORS.white,

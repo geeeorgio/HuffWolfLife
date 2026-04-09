@@ -21,6 +21,8 @@ export const ICON_NAMES = [
   'refresh',
   'share',
   'survival',
+  'learn',
+  'like',
 ] as const;
 
 export type IconName = (typeof ICON_NAMES)[number];
@@ -32,6 +34,8 @@ export const ICONS_MAP: Record<IconName, React.FC<SvgProps>> = {
   refresh: RefreshIcon,
   share: ShareIcon,
   survival: SurvivalIcon,
+  learn: LearnIcon,
+  like: LikeIcon,
 };
 
 export const TAB_BAR_ICONS_MAP: Record<

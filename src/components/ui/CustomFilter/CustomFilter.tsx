@@ -1,5 +1,6 @@
+import { View } from 'react-native';
+
 import CustomButton from '../CustomButton/CustomButton';
-import CustomContainer from '../CustomContainer/CustomContainer';
 import CustomText from '../CustomText/CustomText';
 
 import { styles } from './styles';
@@ -15,10 +16,7 @@ interface CustomFilterProps {
 
 const CustomFilter = ({ filter, setFilter, disabled }: CustomFilterProps) => {
   return (
-    <CustomContainer
-      colorVariant="mainLiquid"
-      style={[styles.container, disabled && styles.disabled]}
-    >
+    <View style={[styles.container, disabled && styles.disabled]}>
       {FILTER_TYPES.map((type) => (
         <CustomButton
           key={type}
@@ -35,7 +33,7 @@ const CustomFilter = ({ filter, setFilter, disabled }: CustomFilterProps) => {
           </CustomText>
         </CustomButton>
       ))}
-    </CustomContainer>
+    </View>
   );
 };
 
