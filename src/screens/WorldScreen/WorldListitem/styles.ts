@@ -42,10 +42,10 @@ export const styles = StyleSheet.create({
   },
   name: {
     color: COLORS.text_main,
-    fontSize: sp(20),
+    fontSize: sp(18),
   },
   description: {
     color: COLORS.black,
-    fontSize: sp(12),
+    fontSize: sp(11),
   },
 });

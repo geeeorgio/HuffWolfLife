@@ -26,6 +26,6 @@ export const styles = StyleSheet.create({
   emptyText: {
     color: COLORS.white,
     textAlign: 'center',
-    fontSize: sp(14),
+    fontSize: sp(12),
   },
 });

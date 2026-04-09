@@ -39,6 +39,6 @@ export const styles = StyleSheet.create({
   },
   description: {
     color: COLORS.text_secondary,
-    fontSize: sp(14),
+    fontSize: sp(11),
   },
 });

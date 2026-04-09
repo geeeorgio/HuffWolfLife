@@ -34,19 +34,17 @@ export const styles = StyleSheet.create({
     alignSelf: 'center',
     width: '90%',
     position: 'relative',
-    paddingTop: hp(10),
-    paddingBottom: hp(16),
-    paddingHorizontal: wp(20),
+    padding: wp(16),
     gap: hp(6),
     marginBottom: hp(20),
   },
   title: {
     color: COLORS.text_main,
-    fontSize: sp(20),
+    fontSize: sp(18),
   },
   description: {
     color: COLORS.text_secondary,
-    fontSize: sp(14),
+    fontSize: sp(12),
   },
   optionsContainer: {
     width: '80%',

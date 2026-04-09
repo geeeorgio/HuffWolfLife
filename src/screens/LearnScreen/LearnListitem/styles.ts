@@ -39,10 +39,10 @@ export const styles = StyleSheet.create({
   },
   name: {
     color: COLORS.text_main,
-    fontSize: sp(18),
+    fontSize: sp(16),
   },
   description: {
     color: COLORS.text_secondary,
-    fontSize: sp(14),
+    fontSize: sp(12),
   },
 });

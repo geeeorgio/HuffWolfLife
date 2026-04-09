@@ -62,7 +62,6 @@ export const styles = StyleSheet.create({
   },
   questionCard: {
     width: '90%',
-    height: hp(111),
     paddingVertical: hp(16),
     paddingHorizontal: wp(20),
     alignItems: 'center',
@@ -70,11 +69,11 @@ export const styles = StyleSheet.create({
   },
   questionCounter: {
     color: COLORS.text_secondary,
-    fontSize: sp(12),
+    fontSize: sp(11),
   },
   questionText: {
     color: COLORS.text_main,
-    fontSize: sp(16),
+    fontSize: sp(15),
     textAlign: 'center',
   },
   optionsContainer: {
@@ -90,6 +89,6 @@ export const styles = StyleSheet.create({
   },
   optionText: {
     color: COLORS.white,
-    fontSize: sp(14),
+    fontSize: sp(12),
   },
 });

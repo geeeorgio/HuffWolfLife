@@ -46,7 +46,7 @@ export const styles = StyleSheet.create({
   },
   liquidContainer: {
     alignSelf: 'center',
-    width: '88%',
+    width: '90%',
     position: 'relative',
     paddingTop: hp(10),
     paddingBottom: hp(16),
@@ -68,22 +68,22 @@ export const styles = StyleSheet.create({
   title: {
     color: COLORS.text_main,
     textAlign: 'center',
-    fontSize: sp(20),
+    fontSize: sp(18),
   },
   description: {
     color: COLORS.text_secondary,
     textAlign: 'center',
-    fontSize: sp(14),
+    fontSize: sp(12),
   },
   button: {
     alignSelf: 'center',
-    width: '88%',
+    width: '90%',
     justifyContent: 'center',
     alignItems: 'center',
     paddingVertical: hp(12),
   },
   buttonText: {
     color: COLORS.text_btn,
-    fontSize: sp(16),
+    fontSize: sp(15),
   },
 });
