@@ -20,7 +20,7 @@ export const COLORS = {
   main_green_container: 'rgba(63, 207, 99, 0.7)',
   learn_green_container: '#3FCF63',
   dark_green_container: 'rgba(20, 40, 30, 0.8)',
-  wolf_light_green_container: 'rgba(146, 186, 71, 0.3)',
+  wolf_light_green_container: 'rgba(146, 186, 71, 0.5)',
 
   main_border: 'rgba(255, 255, 255, 0.6)',
   grey_border: 'rgba(200, 200, 200, 0.3)',

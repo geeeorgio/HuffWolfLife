@@ -3,10 +3,14 @@ import { StyleSheet } from 'react-native';
 import { hp } from 'src/utils';
 
 export const styles = StyleSheet.create({
-  container: {
+  list: {
     flex: 1,
     width: '100%',
-    alignItems: 'center',
-    gap: hp(16),
+  },
+  listContent: {
+    gap: hp(10),
+  },
+  footer: {
+    height: hp(100),
   },
 });

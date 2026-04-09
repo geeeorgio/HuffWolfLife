@@ -23,7 +23,7 @@ const LearnSetup = ({
 }: LearnSetupProps) => {
   return (
     <View style={styles.container}>
-      <CustomText variant="semiBold" style={styles.title}>
+      <CustomText variant="extraBold" style={styles.title}>
         {LEARN_SCREEN_INFO.title}
       </CustomText>
 
