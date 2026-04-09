@@ -1,5 +1,31 @@
 import { StyleSheet } from 'react-native';
 
+import { COLORS } from 'src/constants';
+import { hp, sp, wp } from 'src/utils';
+
 export const styles = StyleSheet.create({
-  container: {},
+  container: {
+    flex: 1,
+    width: '100%',
+    alignItems: 'center',
+    gap: hp(16),
+    paddingHorizontal: wp(15),
+  },
+  title: {
+    color: COLORS.text_main,
+    textAlign: 'center',
+    fontSize: sp(20),
+  },
+  emptyContainer: {
+    alignSelf: 'center',
+    width: '80%',
+    padding: wp(16),
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  emptyText: {
+    color: COLORS.white,
+    textAlign: 'center',
+    fontSize: sp(14),
+  },
 });

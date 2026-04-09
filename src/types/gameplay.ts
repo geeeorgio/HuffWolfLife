@@ -50,3 +50,6 @@ export type QuizQuestionType = {
 
 export const SCENE_STATUS_LIST = ['idle', 'pending', 'finish'] as const;
 export type SceneStatusType = (typeof SCENE_STATUS_LIST)[number];
+
+export const SAVED_TOPICS_LIST = ['Learn the Wolf', 'Wolf World'] as const;
+export type SavedTopicType = (typeof SAVED_TOPICS_LIST)[number];
