@@ -32,7 +32,7 @@ export const styles = StyleSheet.create({
     height: wp(95),
     borderRadius: wp(50),
     borderWidth: wp(1),
-    borderColor: COLORS.tab_bar_bckg,
+    borderColor: COLORS.main_border,
     overflow: 'hidden',
     justifyContent: 'center',
     alignItems: 'center',
@@ -46,7 +46,7 @@ export const styles = StyleSheet.create({
     width: '90%',
     marginBottom: hp(20),
     borderWidth: wp(1),
-    borderColor: COLORS.white,
+    borderColor: COLORS.text_secondary,
     borderRadius: wp(22),
   },
   progressBarTrack: {
@@ -58,7 +58,7 @@ export const styles = StyleSheet.create({
   progressBarFill: {
     height: '100%',
     borderRadius: wp(22),
-    backgroundColor: COLORS.tab_bar_bckg,
+    backgroundColor: COLORS.tab_icon_active,
   },
   questionCard: {
     width: '90%',

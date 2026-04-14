@@ -50,7 +50,7 @@ export const styles = StyleSheet.create({
     fontSize: sp(18),
   },
   textDetails: {
-    color: COLORS.black,
+    color: COLORS.text_secondary,
     fontSize: sp(14),
   },
   actionBtns: {

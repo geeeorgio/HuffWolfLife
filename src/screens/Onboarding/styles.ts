@@ -11,6 +11,7 @@ export const styles = StyleSheet.create({
     paddingBottom: hp(50),
     alignItems: 'center',
     justifyContent: 'space-between',
+    backgroundColor: COLORS.overlay_background,
   },
   progressBarContainer: {
     flexDirection: 'row',

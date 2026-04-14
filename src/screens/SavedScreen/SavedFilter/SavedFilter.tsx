@@ -18,7 +18,7 @@ const SavedFilter = ({ filter, setFilter, disabled }: SavedFilterProps) => {
       {SAVED_TOPICS_LIST.map((topic) => (
         <CustomButton
           key={topic}
-          variant={topic === filter ? 'learnActive' : 'learnInactive'}
+          variant={topic === filter ? 'learnActive' : 'back'}
           style={styles.typeButton}
           onPress={() => setFilter(topic)}
           disabled={disabled}

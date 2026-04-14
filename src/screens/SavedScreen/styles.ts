@@ -10,6 +10,7 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     gap: hp(16),
     paddingHorizontal: wp(15),
+    backgroundColor: COLORS.overlay_background,
   },
   title: {
     color: COLORS.text_main,
