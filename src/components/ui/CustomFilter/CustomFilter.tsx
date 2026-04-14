@@ -20,7 +20,7 @@ const CustomFilter = ({ filter, setFilter, disabled }: CustomFilterProps) => {
       {FILTER_TYPES.map((type) => (
         <CustomButton
           key={type}
-          variant={type === filter ? 'learnActive' : 'back'}
+          variant={type === filter ? 'main' : 'back'}
           style={styles.typeButton}
           onPress={() => setFilter(type)}
           disabled={disabled}

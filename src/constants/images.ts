@@ -1,18 +1,18 @@
-export const MAIN_BACKGROUND = require('src/assets/images/bckgd/gray_bckgd.png');
+export const MAIN_BACKGROUND = require('src/assets/images/bckgd/wild_bckgd.png');
 
-export const SMALL_LOGO = require('src/assets/images/bckgd/gray_small_wolf.png');
-export const QUIZ_IMAGE = require('src/assets/images/bckgd/gray_quiz.png');
+export const SMALL_LOGO = require('src/assets/images/bckgd/wild_small_wolf.png');
+export const QUIZ_IMAGE = require('src/assets/images/bckgd/wild_quiz.png');
 export const WOLF_LIFE = {
-  one: require('src/assets/images/bckgd/gray_live_1.png'),
-  two: require('src/assets/images/bckgd/gray_live_2.png'),
+  one: require('src/assets/images/bckgd/wild_live_1.png'),
+  two: require('src/assets/images/bckgd/wild_live_2.png'),
 };
 
 export const ONBD_IMAGES = {
-  onbd_0: require('src/assets/images/bckgd/gray_live_1.png'),
-  onbd_1: require('src/assets/images/onbd/gray_onbd_2.png'),
-  onbd_2: require('src/assets/images/onbd/gray_onbd_3.png'),
-  onbd_3: require('src/assets/images/bckgd/gray_live_1.png'),
-  onbd_4: require('src/assets/images/bckgd/gray_live_2.png'),
+  onbd_0: require('src/assets/images/onbd/wild_onbd_1.png'),
+  onbd_1: require('src/assets/images/bckgd/wild_live_1.png'),
+  onbd_2: require('src/assets/images/onbd/wild_onbd_3.png'),
+  onbd_3: require('src/assets/images/bckgd/wild_live_2.png'),
+  onbd_4: require('src/assets/images/bckgd/wild_live_1.png'),
 };
 
 export const SCENES_IMAGES = {

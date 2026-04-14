@@ -34,10 +34,10 @@ const QuizGame = ({
   const progress = ((questionIndex + 1) / totalQuestions) * 100;
 
   const getOptionVariant = (option: string) => {
-    if (!isAnswered) return 'main';
+    if (!isAnswered) return 'back';
     if (option === question.correctAnswer) return 'quizGreen';
     if (option === selectedAnswer) return 'quizRed';
-    return 'main';
+    return 'back';
   };
 
   const getOptionOpacity = (option: string) => {

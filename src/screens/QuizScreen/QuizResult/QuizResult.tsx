@@ -47,7 +47,11 @@ const QuizResult = ({
         </CustomText>
       </CustomContainer>
 
-      <CustomButton onPress={onRestartPress} style={styles.restartButton}>
+      <CustomButton
+        variant="back"
+        onPress={onRestartPress}
+        style={styles.restartButton}
+      >
         <CustomText variant="black" style={styles.restartButtonText}>
           Start again
         </CustomText>

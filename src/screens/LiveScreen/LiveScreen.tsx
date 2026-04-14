@@ -136,6 +136,7 @@ const LiveScreen = () => {
               <View style={styles.optionsContainer}>
                 {currentScene.options.map((option) => (
                   <CustomButton
+                    variant="back"
                     key={option.id}
                     onPress={() => handleOptionPress(option)}
                     style={styles.optionButton}
@@ -151,6 +152,7 @@ const LiveScreen = () => {
             {status === 'finish' && (
               <View style={styles.finishContainer}>
                 <CustomButton
+                  variant="back"
                   onPress={handleNextScenePress}
                   style={styles.nextButton}
                 >
@@ -160,12 +162,14 @@ const LiveScreen = () => {
                 </CustomButton>
                 <View style={styles.helperButtonsContainer}>
                   <CustomButton
+                    variant="back"
                     onPress={handleRefreshPress}
                     style={styles.helperButton}
                   >
                     <CustomIcon name="refresh" width={wp(28)} height={hp(28)} />
                   </CustomButton>
                   <CustomButton
+                    variant="back"
                     onPress={handleShare}
                     style={styles.helperButton}
                   >

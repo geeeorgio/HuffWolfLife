@@ -21,7 +21,11 @@ const QuizSetup = ({ onStartPress }: QuizSetupProps) => {
         description={QUIZ_SCREEN_INFO.description}
       />
 
-      <CustomButton onPress={onStartPress} style={styles.startButton}>
+      <CustomButton
+        variant="back"
+        onPress={onStartPress}
+        style={styles.startButton}
+      >
         <CustomText variant="black" style={styles.startButtonText}>
           {QUIZ_SCREEN_INFO.buttonText}
         </CustomText>

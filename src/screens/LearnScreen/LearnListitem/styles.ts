@@ -27,7 +27,7 @@ export const styles = StyleSheet.create({
     paddingHorizontal: wp(16),
     paddingVertical: hp(8),
     gap: hp(6),
-    backgroundColor: COLORS.learn_green_container,
+    backgroundColor: COLORS.main_green_container,
   },
   overlay: {
     position: 'absolute',

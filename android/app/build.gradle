@@ -79,7 +79,7 @@ android {
 
     namespace "com.huffwolflife"
     defaultConfig {
-        applicationId "com.graywolfpath"
+        applicationId "com.wildwolfnature"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
